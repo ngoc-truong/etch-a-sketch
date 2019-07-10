@@ -1,0 +1,20 @@
+#container {
+    width: 45%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: green;
+}
+
+.square {
+    display: block;
+    float: left;
+    background-color: grey;
+}
+
+.reset {
+    background-color: grey;
+}
