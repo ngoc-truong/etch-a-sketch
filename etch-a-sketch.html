@@ -1,12 +1,19 @@
 <!DOCTYPE html> 
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pacifico&display=swap" rel="stylesheet">  
         <link rel="stylesheet" href="etch-a-sketch.css">
     </head>
     <body>
-        <button id="reset">Reset canvas</button>
-        <button id="number">Enter number of pixels</button>
-        <div id="container">
+
+        <div id="wrapper">
+            <div id="title">Etch-a-Sketchbook</div>
+            <div id="container" class="row">
+            </div>
+            <div id="buttons" class="row">
+                <button id="reset">Reset Canvas</button>
+                <button id="number">How Many Columns?</button>
+            </div>
         </div>
     </body>
     <script src="etch-a-sketch.js"></script>
